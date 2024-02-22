@@ -1,0 +1,15 @@
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/bin/Debug/net7.0/ejercicio
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/bin/Debug/net7.0/ejercicio.deps.json
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/bin/Debug/net7.0/ejercicio.runtimeconfig.json
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/bin/Debug/net7.0/ejercicio.dll
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/bin/Debug/net7.0/ejercicio.pdb
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.csproj.AssemblyReference.cache
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.AssemblyInfoInputs.cache
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.AssemblyInfo.cs
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.csproj.CoreCompileInputs.cache
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.dll
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/refint/ejercicio.dll
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.pdb
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ejercicio.genruntimeconfig.cache
+/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/obj/Debug/net7.0/ref/ejercicio.dll
