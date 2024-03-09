@@ -1,26 +1,39 @@
-﻿using System;
+﻿
 
 class Program
 {
     static void Main(string[] args)
     {
-        int number1, number2, number3;
+        Console.Write("Ingresa tu salario base: ");
+        double salary = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Ingresa el primer número: ");
-        number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Valor venta 1: ");
+        double sell1 = Convert.ToDouble(Console.ReadLine());
+        double commission1 = sell1 * 0.1;
+        Console.Write("Valor venta 2: ");
+        double sell2 = Convert.ToDouble(Console.ReadLine());
+        double commission2 = sell2 * 0.1;
+        Console.Write("Valor venta 3: ");
+        double sell3 = Convert.ToDouble(Console.ReadLine());
+        double commission3 = sell3 * 0.1;
 
-        Console.Write("Ingresa el segundo número: ");
-        number2 = Convert.ToInt32(Console.ReadLine());
+        double totalCommission = commission1 + commission2 + commission3;
 
-        Console.Write("Ingresa el tercer número: ");
-        number3 = Convert.ToInt32(Console.ReadLine());
+        double totalSells = sell1 + sell2 + sell3;
 
-        double exp=Math.Pow(number1, 2); 
-        double sqr2 = Math.Sqrt(number2);      
-        double sqr3 = Math.Pow(number3, 1.0 / 3.0);
+        double salaryMoreCommissions = totalCommission + salary;
 
-        Console.WriteLine($"El cuadrado de {number1} es: {exp}");
-        Console.WriteLine($"La raíz cuadrada de {number2} es: {sqr2}");
-        Console.WriteLine($"La raíz cúbica de {number3} es: {sqr3}");
+        double maxSell = Math.Max(sell1, Math.Max(sell2, sell3));
+
+        double averageCommission = totalCommission / 3;
+
+        Console.WriteLine($"Dinero por concepto de comisiones: {totalCommission}");
+        Console.WriteLine($"Comisiones mas salario base: {salaryMoreCommissions}");
+        Console.WriteLine($"Venta que generó mas comision: {maxSell}");
+        Console.WriteLine($"Promedio de comisiones: {averageCommission}");
+
+        if (totalSells >= 1000000) Console.WriteLine("Ganaste el beneficio");
+        else Console.WriteLine("No ganaste el beneficio");
+
     }
 }

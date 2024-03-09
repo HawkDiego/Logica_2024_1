@@ -1,4 +1,20 @@
 ﻿<Properties StartupConfiguration="{DBB6C785-8A4F-42AE-A01E-AAF8AF4B4D03}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ejercicio FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ejercicio" expanded="True" selected="True">
+            <Node name="ejercicio" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ejercicio PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
