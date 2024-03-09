@@ -13,13 +13,8 @@ class Program
 
         double timeToCatchUp = distanceBetweenTrains / (trainSpeed2 - trainSpeed1);
 
-
         double catchUpTime = timeToCatchUp + 10;
    
-
-
         Console.WriteLine($"El segundo tren alcanzará al primer tren a las {catchUpTime} AM.");
-
-
     }
 }
