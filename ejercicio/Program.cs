@@ -15,6 +15,6 @@ class Program
 
         double catchUpTime = timeToCatchUp + 10;
    
-        Console.WriteLine($"El segundo tren alcanzará al primer tren a las {catchUpTime} AM.");
+        Console.WriteLine($"El segundo tren alcanzará al primer tren a las {catchUpTime}");
     }
 }
