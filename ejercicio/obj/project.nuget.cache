@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ht5+HtkwpX2bmFavzMdkJGr6ZrCmZA0PhsUFjEklqVwdXcqNz47bKUfNrWkRtV/KQLxaXMMTjpleLI82Lg8B+g==",
+  "dgSpecHash": "yzE8vnWOfc4+aqjysu6B5nh1VciIv0iBVMbsb1NOgNK573IU/kmu2Tmd8NAc/dlg2EmumB7uSJ9ZuZQY4KlzoQ==",
   "success": true,
-  "projectFilePath": "/Users/diegogiraldo/Documents/itm/logicaDeProgramacion/ejercicio/ejercicio/ejercicio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\HawkDiego\\Logica_2024_1\\ejercicio\\ejercicio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

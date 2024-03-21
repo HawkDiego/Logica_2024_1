@@ -4,23 +4,33 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number1, number2, number3;
+        string repeat;
+        do
+        {
+            Console.Write("Ingrese el weight del paciente en kg: ");
+            double weight = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Ingresa el primer número: ");
-        number1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Ingrese la height del paciente en metros: ");
+            double height = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Ingresa el segundo número: ");
-        number2 = Convert.ToInt32(Console.ReadLine());
+            double imc = weight / Math.Pow(height, 2);
+            string category;
 
-        Console.Write("Ingresa el tercer número: ");
-        number3 = Convert.ToInt32(Console.ReadLine());
+            if (imc < 18.5)
+                category = "peso insuficiente";
+            else if (imc >= 18.5 && imc <= 24.9)
+                category=  "weight saludable";
+            else if (imc >= 25 && imc <= 29.9)
+                category=  "Sobreweight";
+            else
+                category = "Obesidad";
 
-        double exp=Math.Pow(number1, 2); 
-        double sqr2 = Math.Sqrt(number2);      
-        double sqr3 = Math.Pow(number3, 1.0 / 3.0);
 
-        Console.WriteLine($"El cuadrado de {number1} es: {exp}");
-        Console.WriteLine($"La raíz cuadrada de {number2} es: {sqr2}");
-        Console.WriteLine($"La raíz cúbica de {number3} es: {sqr3}");
+            Console.WriteLine("La categoría del IMC del paciente es: " + category);
+
+            Console.Write("¿Desea calcular el IMC de otro paciente? (s/n): ");
+            repeat = Console.ReadLine();
+        }
+        while (repeat.ToLower() == "s");
     }
 }
